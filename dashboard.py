@@ -10,7 +10,7 @@ import openpyxl
 import os
 import plotly.graph_objects as go
 
-BASE = r"C:\Users\fredo\500 Project"
+BASE = os.path.dirname(os.path.abspath(__file__))
 WATERFALL_DIR = os.path.join(BASE, "waterfall_plots")
 
 st.set_page_config(
